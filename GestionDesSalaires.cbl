@@ -29,10 +29,10 @@
            DISPLAY "========================================".
            DISPLAY "          MENU PRINCIPAL                 ".
            DISPLAY "========================================".
-           DISPLAY "1. Ajouter un Employé".
+           DISPLAY "1. Ajouter un Employe".
            DISPLAY "2. Calculer le Salaire".
            DISPLAY "3. Quitter".
-           DISPLAY "Sélectionnez une option : ".
+           DISPLAY "Selectionnez une option : ".
            ACCEPT Option.
 
         EVALUATE Option
@@ -43,7 +43,7 @@
                WHEN '3'
                    DISPLAY "Au revoir !"
                WHEN OTHER
-                   DISPLAY "Option invalide. Veuillez réessayer.".
+                   DISPLAY "Option invalide. Veuillez reessayer.".
                    PERFORM MENU-PRINCIPAL
            
 
