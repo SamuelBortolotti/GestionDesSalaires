@@ -8,12 +8,12 @@
        working-storage section.
 
        01  Employe.
-           05  Nom               PIC A(30).
-           05  EmployeID                PIC 9(5).
-           05  Taux-Horaire      PIC 9(3)V99. *> V99 pour afficher 2 chiffres après la virgule, gain de précision
-           05  Heures-Travaillees PIC 9(3).
-           05  Heures-Supp PIC 9(3).
-           05  Salaire            PIC 9(7)V99.
+           05  Nom                    PIC A(30).
+           05  EmployeID              PIC 9(5).
+           05  Taux-Horaire           PIC 9(3)V99. *> V99 pour afficher 2 chiffres après la virgule, gain de précision
+           05  Heures-Travaillees     PIC 9(3).
+           05  Heures-Supp            PIC 9(3).
+           05  Salaire                PIC 9(7)V99.
            05  Taux-Imposition        PIC 9(3)V99 VALUE 0.2.  *> 20% d'imposition
            05  Retenue                PIC 9(7)V99.
            05  SalaireNet             PIC 9(7)V99.
